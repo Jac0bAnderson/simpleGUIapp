@@ -5,7 +5,7 @@ import gui.view.GUIFrame;
 /**
  * simple GUI controller
  * @author jand6944
- *@version 0.x november 9, 2015
+ *@version 0.2 november 9, 2015
  */
 
 public class controller 
