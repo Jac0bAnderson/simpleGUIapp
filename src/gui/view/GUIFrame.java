@@ -26,11 +26,15 @@ public GUIFrame(controller baseController)// use the parameter "baseController".
 private void setupFrame()
 {
 	this.setContentPane(basePanel);//must be the first line of setupFrame - installs the panel in the frame.
-	this.setSize(400,400);//sets the size
-	this.setVisible(true);//sets the visibility 
-    this.setResizable(false);//makes it so it cannot be resized. it's true by default.
-    
+	this.setSize(400,400);        //sets the size
+	this.setVisible(true);		 //sets the visibility 
+    this.setResizable(false);   //makes it so it cannot be resized. it's true by default.
+    this.setTitle("how bout you click dat subs button");  //sets the title
 }
 
+public controller getBaseController()
+{
+return baseController;	
+}
 
 }
